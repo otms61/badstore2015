@@ -1,0 +1,12 @@
+AllCops:
+  RunRailsCops: true
+  Include:
+    - '**/Gemfile'
+
+Metrics/LineLength:
+  Max: 128
+  AllowURI: true
+  URISchemes:
+    - http
+    - https
+
