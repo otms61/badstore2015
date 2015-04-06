@@ -6,6 +6,8 @@ require 'active_record'
 require 'active_support/core_ext'
 require 'yaml'
 require 'open-uri'
+require 'open3'
+require 'pry'
 
 dbconfig = YAML.load(File.open('database.yml'))
 ActiveRecord::Base.establish_connection(dbconfig['development'])
