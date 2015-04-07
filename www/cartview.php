@@ -50,7 +50,7 @@ foreach ($sth as $row) {
 <?php 
 if (isset($_SESSION['user'])) {
 ?>
-    <form method="post" action="/buy.php">
+    <form method="post" action="./buy.php">
         <input class="btn btn-primary" type="submit" value="購入">
     </form>
 <?php    

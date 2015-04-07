@@ -4,7 +4,7 @@ require_once ('../config.php');
 print_header();
 ?>
 <div class="container" style="padding:20px 0">
-<form method="post" action="/cartadd.php">
+<form method="post" action="./cartadd.php">
 <h1>最新の商品一覧です！</h1>
 <hr>
 <table class="table table-bordered">

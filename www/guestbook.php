@@ -9,7 +9,7 @@ print_header();
 <p>ぜひ、ゲストブックにメッセージを残していって下さい！サイトについて、買った所品やサイトの完成など何でも構いません。</p>
 <hr>
 
-<form class="form-horizontal" method="post" action="/doguestbook.php">
+<form class="form-horizontal" method="post" action="./doguestbook.php">
   <div class="form-group">
     <label for="inputName" class="col-sm-2 control-label">Your Name</label>
     <div class="col-sm-10">
