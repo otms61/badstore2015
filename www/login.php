@@ -12,6 +12,8 @@ catch(PDOException $e) {
     die();
 }
 
+// fullnameのところに機密情報がのるようにこんな感じで攻撃する。
+// $sql = "SELECT * FROM users WHERE email = 'a@a' and '1'='2' union select 1,1,1,1 ;-- AND password = '0cc175b9c0f1b6a831c399e269772661'";
 $sql = "SELECT * FROM users WHERE email = '" . $_GET['email'] . "' AND password = '" . $hashed_password . "'";
 $stmt = $dbh->query($sql);
 $result = $stmt->fetch(PDO::FETCH_ASSOC);

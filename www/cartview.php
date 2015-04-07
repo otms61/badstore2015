@@ -15,6 +15,8 @@ try {
 }
 
 $cartitems = implode(",", $_SESSION['cartitems']);
+
+// SELECT id, name, description, price FROM items WHERE id IN (1) union select 1,1,1,1 ;--)");
 $sth = $dbh->query("SELECT id, name, description, price FROM items WHERE id IN ($cartitems)");
 ?>
 
