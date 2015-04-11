@@ -1,6 +1,6 @@
 <?php 
 define('__ROOT__', dirname(__FILE__)); 
-define("DSN", "mysql:host=localhost;dbname=badstore2015;unix_socket=/tmp/mysql.sock");
+define("DSN", "mysql:host=localhost;dbname=badstore2015");
 define("DBUSER", "root");
 define("DBPASSWORD", "");
 
