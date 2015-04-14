@@ -40,7 +40,7 @@ if (isset($_SESSION['user'])) {
   <div class="form-group">
     <label for="inputUrl" class="col-sm-2 control-label">URL</label>
     <div class="col-sm-10">
-    <input class="form-control" name="url" id="inputUrl" placeholder="気になったページ">
+    <input class="form-control" name="url" id="inputUrl" placeholder="気になったページ ex) /index.php">
     </div>
   </div>
 
